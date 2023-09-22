@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora&family=Poppins:wght@100;300;400;500;600&family=Roboto&family=Roboto+Condensed:wght@300&family=Ropa+Sans&family=Secular+One&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'poppins';
+}
+
+.app-info {
+  margin: 4rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #055647;
+  color: white;
+  padding: 1rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1.5rem;
+  width: 100vh;
+}
+
+
+.hero-img {
+  width: 377px; 
+  height: 377px;
+  border-radius: 50%;
+  border: 1rem solid #055647;
+  object-fit: cover;
+}
+
+.hero h2 {
+  margin-bottom: 1rem;
+}
+
+.hero p {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+max-width: 30rem;
+}
+
+.hero-button-flex {
+  display: flex;
+  justify-content: end;
+  margin-right: 1.3rem;
+}
+
+.button {
+  background-color: #055647;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.button-remove {
+  background-color: red;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.6rem;
+}
+
+.border-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  border-bottom: 2px solid black;
+  width: 20rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 1.5rem;
+
+}
+
+.header-input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.header-input--left-seed, 
+.header-input--left-date,
+.header-input--left-url, 
+.header-input--left-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* PLANT CONTAINER */
+
+.plant-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .plant-container-card {
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .plant-container-card img {
+    object-fit: cover;
+  }
+
+.plant-container--flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  gap: 2.2rem;
+  
+}
+.plant-container--flex h4 {
+  font-size: 0.8rem;
+}
+
+.plant-container-card p {
+  font-size: 0.8rem;
+}
+
+.main h2 {
+  margin-bottom: 1rem;
+}
